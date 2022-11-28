@@ -14,8 +14,8 @@ public class Main {
             System.out.println("Please enter count frags player " + i + " team 1");
             int playerTeam1 = scanner.nextInt();
             average1 += playerTeam1;
-            scanner.nextLine();
         }
+        scanner.nextLine();
         average1 /= 5;
 
         System.out.println("Please enter team 2 name:");
@@ -27,8 +27,8 @@ public class Main {
             System.out.println("Please enter count frags player " + i + " team 2");
             int playerTeam2 = scanner.nextInt();
             average2 += playerTeam2;
-            scanner.nextLine();
         }
+        scanner.nextLine();
         average2 /= 5;
         System.out.println();
 
