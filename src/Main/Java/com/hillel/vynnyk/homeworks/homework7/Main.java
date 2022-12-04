@@ -9,7 +9,6 @@ public class Main {
                 counter++;
             }
         }
-
         System.out.println("Total number of spaceships: " + counter);
     }
 }
