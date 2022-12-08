@@ -13,6 +13,7 @@ public class Main {
             sum1 += team1[i];
         }
         double averageAge1= sum1 / team1.length;
+
         System.out.println("Team1 age: " + Arrays.toString(team1));
         System.out.println("Average age of team1: " + averageAge1);
 
