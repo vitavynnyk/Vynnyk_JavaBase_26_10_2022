@@ -7,24 +7,24 @@ public class Main {
         int[] team1 = new int[25];
         int[] team2 = new int[25];
 
-        double average1 = team1[0];
+        double sum1 = 0;
         for (int i = 0; i < team1.length; i++) {
             team1[i] = 18 + (int) (Math.random() * ((40 - 18) + 1));
-            average1 += team1[i];
+            sum1 += team1[i];
         }
-        average1 /= team1.length;
+        double averageAge1= sum1 / team1.length;
         System.out.println("Team1 age: " + Arrays.toString(team1));
-        System.out.println("Average age of team1: " + average1);
+        System.out.println("Average age of team1: " + averageAge1);
 
-        double average2 = 0;
+        double sum2 = 0;
         for (int i = 0; i < team2.length; i++) {
             team2[i] = 18 + (int) (Math.random() * ((40 - 18) + 1));
-            average2 += team2[i];
+            sum2 += team2[i];
         }
-        average2 /= team2.length;
+       double averageAge2 = sum2 / team2.length;
 
         System.out.println();
         System.out.println("Team2 age: " + Arrays.toString(team2));
-        System.out.println("Average age of team2: " + average2);
+        System.out.println("Average age of team2: " + averageAge2);
     }
 }
