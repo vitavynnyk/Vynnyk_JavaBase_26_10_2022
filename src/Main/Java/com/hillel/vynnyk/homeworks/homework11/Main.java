@@ -64,21 +64,7 @@ public class Main {
 
 
 
-//        for (int i = 0; i <number.length ; i++) {
-//            for (int j = i+1; j <number[i].length ; j++) {
-//                int temp = number[i][j];
-//                number[i][j] = number[j][i];
-//                number[j][i]=temp;
-//            }
-//        }
-//
-//        for (int i = 0; i < number.length; i++) {
-//            for (int j = 0; j < number[i].length; j++) {
-//                System.out.print ( number[i][j] + "\t");
-//            }
-//            System.out.println();
-//        }
-//    }
+
 
 
 
