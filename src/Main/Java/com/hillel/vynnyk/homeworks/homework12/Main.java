@@ -15,9 +15,11 @@ public class Main {
 }
 
 class Person {
-    public void personInfo (String firstName, String secondName, String city, String phoneNumber) {
-        System.out.println("To call to citizen " + firstName + secondName + "from city " + city + ", "
-                + "phone number " + phoneNumber);
+    public String personInfo (String firstName, String secondName, String city, String phoneNumber) {
+        String info = "To call to citizen " + firstName + secondName + "from city " + city + ", "
+                + "phone number " + phoneNumber;
+        System.out.println(info);
+        return info;
     }
 
 }
