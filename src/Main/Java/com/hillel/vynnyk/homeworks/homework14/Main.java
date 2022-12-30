@@ -10,6 +10,7 @@ public class Main {
 
         user1.steps = 10500;
         user1.weight = 55;
+
         user1.printAccountInfo();
         System.out.println();
 
@@ -27,5 +28,12 @@ public class Main {
         user3.weight = 68;
         user3.pressure = "130:80";
         user3.printAccountInfo();
+        System.out.println();
+
+        User user4 = new User("Julia ", "Kravchuk, ", 1997,
+                5, 6, "juliakravchuk1997@gmail.com, ",  "0987654328,",
+                55, "100:60", 12000);
+
+        user4.printAccountInfo();
     }
 }
