@@ -8,8 +8,8 @@ public class Main {
                 58, "120:60", 10000);
         user1.printAccountInfo();
 
-        user1.steps = 10500;
-        user1.weight = 55;
+        user1.setSteps(10500);
+        user1.setWeight(55);
 
         user1.printAccountInfo();
         System.out.println();
@@ -25,8 +25,8 @@ public class Main {
                 72, "130:75", 11000);
         user3.printAccountInfo();
 
-        user3.weight = 68;
-        user3.pressure = "130:80";
+        user3.setWeight(68);
+        user3.setPressure("130:80");
         user3.printAccountInfo();
         System.out.println();
 
